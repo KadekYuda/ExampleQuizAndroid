@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.examplequiz.FinishedActivity"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FINISHED"
+        android:layout_marginBottom="32dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="center"
+        android:textSize="48dp"/>
+
+    <TextView
+        android:id="@+id/playerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:gravity="center"
+        android:textColor="#ddd"
+        android:textSize="34dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score"
+        android:gravity="center"
+        android:textColor="#ddd"
+        android:layout_marginTop="16dp"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/finalScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="#ddd"
+        android:textSize="45dp"/>
+
+    <TextView
+        android:id="@+id/correctAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Correct Answer: 0"
+        android:gravity="center"
+        android:textColor="#ddd"/>
+
+    <Button
+        android:id="@+id/playAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:layout_marginTop="48dp"
+        android:padding="16dp"
+        android:textColor="@color/colorAccent"/>
+
+</LinearLayout>
